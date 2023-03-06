@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+  font-size: 28px;
+}
+
+h2 {
+  color: #c0c0c0;
+  font-size: 16px;
+}
+
+h3 {
+  color: red;
+  font-size: 12px;
+}
+
+.btnData {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 8px 8px;
+  border-radius: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 1px;
+  background-color: green;
+  color: white;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
